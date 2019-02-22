@@ -1,0 +1,209 @@
+   @media screen and (max-width: 760px) {
+    
+    .tiles-colors .col-md-3:nth-child(2) {
+        padding-right: 0;
+    }
+
+    .tiles-colors .col-md-3:nth-child(6) {
+        padding-right: 0;
+    }
+
+    .tile-box img {
+        width: 60px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .tile-box-custom img {
+        width: 45px;
+        margin: inherit;
+        display: initial;
+        margin: 38px 0px 20px 0px;
+    }
+
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    /*body{background: Red;}*/
+
+    .tile-box-custom .value-box-custom {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .tile-box-custom .col-md-6 {
+        padding-right: 15px;
+        position: relative;
+    }
+
+    .lbl-box-custom {
+        font-size: 10px;
+    }
+
+    .tile-box .number-tile {
+        font-size: 62px;
+    }
+    
+  }
+
+  @media screen and (max-width: 990px) {
+
+    /*body{background: Green;}*/
+
+    .tile-box-custom .col-md-6 {
+        padding-right: 10px;
+        position: relative;
+    }
+
+    .tile-box-custom .value-box-custom {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .tile-box .value-tile {
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 6px;
+        margin-bottom: -7px;
+    }
+
+    .tile-box .number-tile {
+        font-size: 57px;
+    }
+
+    .tile-box .letter-info {
+        margin: -5px 0px -2px -10px !important;
+    }
+
+    .card-default {
+        overflow: auto;
+    }
+
+    table {
+        overflow: overlay;
+        width: 600px;
+    }
+    
+  }
+
+  @media screen and (max-width: 767px) {
+
+    /*body{background: Green;}*/
+
+    .tile-box {
+        height: 200px;
+        width: 100%;
+        padding-top: 30px;
+        color: #FFF;
+        font-size: 18px;
+    }
+
+    .tile-box-custom .col-md-6 {
+        padding-right: 30px;
+        position: relative;
+    }
+
+    .tile-box img {
+        width: 25%;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .tile-box-custom img {
+        width: 65px;
+        margin: inherit;
+        display: initial;
+        margin: 10px 0px 15px 0px;
+    }
+
+    .tile-box-custom .value-box-custom {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .tile-box-custom .value-box-custom {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .tile-box span {
+        font-size: 14px;
+    }
+
+    .number-perc {
+        font-size: 65px !important;
+    }
+
+    .indi-perc {
+        font-size: 30px !important;
+    }
+
+    .tile-box .value-tile {
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 6px;
+        margin-bottom: -7px;
+    }
+
+    .tile-box .number-tile {
+        font-size: 57px;
+    }
+
+    .tile-box .number-tile {
+        font-size: 85px;
+        margin-top: 5px;
+    }
+
+    .tile-box .perc-tile {
+        font-size: 65px;
+    }
+
+    .tiles-colors .col-md-3:nth-child(2) {
+        padding-right: 0;
+    }
+
+    .tiles-colors .col-md-3:nth-child(6) {
+        padding-right: 0;
+    }
+
+    .tile-box .letter-info {
+        margin: -5px 0px -22px -10px !important;
+    }
+
+    
+
+    .lbl-box-custom {
+        font-size: 14px;
+    }
+    
+  }
+
+  @media screen and (max-width: 735px) {
+
+    .tile-box .letter-info {
+        margin: -5px 0px -22px -10px !important;
+    }
+
+  }
+
+  @media screen and (max-width: 490px) {
+
+    .tile-box img {
+        width: 40%;
+    }
+
+    .tile-box-custom .value-box-custom {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+
+    .lbl-box-custom {
+        font-size: 12px;
+    }
+
+
+  }
+
+
+

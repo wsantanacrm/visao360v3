@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Visão 360 - Águia Branca</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/visao360style.css">
+    <link rel="stylesheet" href="css/visao360styleResponsive.css">
+
+    <script src="js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="full-container-dash">
+        <header>
+
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="images/3d-buildings.svg" width="35" alt="" alt="Nome do Cliente - 00.000.000/0001-00" title="Nome do Cliente - 00.000.000/0001-00">
+                <span class="custom-cliente hidden-xs">
+                    <span class="name-cliente truncate" alt="Nome do Cliente" title="Nome do Cliente"> Nome do Cliente</span>
+                    <span class="cnpj-cliente truncate" alt="00.000.000/0001-00" title="00.000.000/0001-00">
+                        00.000.000/0001-00</span>
+                </span>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-6 text-center ">
+                <span> <strong>TOP 10</strong></span>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-4 text-right hidden-xs">
+                <span> Frota do Cliente: <strong>110</strong></span>
+            </div>
+
+
+
+        </header>
+
+        <div class="painel-custom">
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+
+                    <!-- Cards Default -->
+                    <div class="card-default">
+                        <h3>Contato</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nome de Contato</th>
+                                    <th>Telefone</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Gustavo Santarpia Torres</td>
+                                    <td>11 00000-0000</td>
+                                    <td>gustavo.torres@partners.srv.br</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                    <div class="card-default">
+                        <h3>Coligadas</h3>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Cliente</th>
+                                    <th>CNPJ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Loren Ipsum Dolar Asset</td>
+                                    <td>00.000.000/0001-00</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                    <div class="card-default vendedores-bg">
+
+                        <ul class="list-vendedores">
+                            <li>Vendedor Peças: Laís</li>
+                            <li>Vendedor Pneus: Ellen</li>
+                            <li>Vendedor Veículos: Juliana</li>
+                        </ul>
+
+                    </div>
+                    <!-- Cards Default -->
+
+                    <div>
+
+                        <a class="btn-link">Peças</a>
+                        <a class="btn-link">Pneus</a>
+
+                        <div class="tiles-colors">
+                            <!-- Bloco 01 -->
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box blue-ag">
+                                    <img src="images/clipboard.svg" alt="">
+                                    <p class="number-tile letter-info"> ABC </p>
+                                    <span> Perfil do cliente </span>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box red">
+                                    <img src="images/income.svg" alt="">
+                                    <p class="value-tile num-potencial">R$ 800.000,00</p>
+                                    <span> Potencial </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box purple-ag">
+                                    <p class="number-tile count"> 163 </p>
+                                    <span> Cotações em aberto </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box green-ag">
+                                    <p class="number-tile count"> 9 </p>
+                                    <span> Partidas em aberto </span>
+                                </div>
+                            </div>
+
+                            <!-- Bloco 2 -->
+
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box green-ag ">
+                                    <p class="number-tile count"> 10 </p>
+                                    <span> CSI </span>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box black-ag">
+                                    <img src="images/logo-mercedes.png" alt="">
+                                    <p class="value-tile num-frota">250</p>
+                                    <p class="lbl-frota">Mercedes-Benz</p>
+                                    <span> Frota </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box red">
+                                    <img src="images/ticket_medium.svg" alt="">
+                                    <p class="value-tile num-potencial">R$ 12.200,00</p>
+                                    <span> Ticket Médio </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box purple-ag">
+                                    <p class="string-tile truncate">PERDA</p>
+                                    <span> Comparativo </span>
+                                </div>
+                            </div>
+
+                            <!-- Bloco 3 -->
+
+
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box red tile-bg-chart">
+                                    <p class="perc-tile"><span class="number-perc count">78</span><span class="indi-perc">%</span>
+                                    </p>
+                                    <p class="value-tile">R$ 800.000,00</p>
+                                    <span> Market Shared </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                <div class="tile-box green-ag">
+                                    <p class="number-tile class-abc">A</p>
+                                    <span> Classificação ABC </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="tile-box blue-ag tile-box-custom">
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="images/coin.svg" alt="">
+                                        <p class="value-box-custom">R$ 5.000.000,00</p>
+                                        <p class="lbl-box-custom">Total Crédito</p>
+                                        <span class="line-vert"></span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <img src="images/give-money.svg" alt="">
+                                        <p class="value-box-custom">R$ 200.000,00</p>
+                                        <p class="lbl-box-custom">Crédito disponível</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">                
+
+                    <div class="bg-chart">
+                        <h3>Comparativo de Faturamento Anual</h3>
+                        <canvas id="myChart2" height="168"></canvas>
+
+                    </div>
+
+                    <div class="bg-chart">
+
+                            <h3>Frota de Veículos</h3>
+                            <canvas id="myChart" height="168"></canvas>
+    
+                        </div>
+
+                </div>
+
+                <div style="clear:both; height: 20px;"> </div>
+
+                <div class="col-md-12">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <!-- Cards Default -->
+                            <div class="card-default">
+                                <h3>Partidas em aberto</h3>
+
+                                <div style="overflow-x:auto;">
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Ordem</th>
+                                                <th>Tipo</th>
+                                                <th>Valor</th>
+                                                <th>Data de vencimento</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01203045</td>
+                                                <td>Loren Ipsum dolar Asset</td>
+                                                <td>R$ 0,00</td>
+                                                <td>10/10/2019</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>01203045</td>
+                                                <td>Loren Ipsum dolar Asset</td>
+                                                <td>R$ 0,00</td>
+                                                <td>10/10/2019</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>01203045</td>
+                                                <td>Loren Ipsum dolar Asset</td>
+                                                <td>R$ 0,00</td>
+                                                <td>10/10/2019</td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <!-- Cards Default -->
+                            <div class="card-default">
+                                <h3>Últimos Faturamentos</h3>
+
+                                <div style="overflow-x:auto;">
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Data</th>
+                                                <th>Quantidade</th>
+                                                <th>Item</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>10/10/2019</td>
+                                                <td>999</td>
+                                                <td>Loren Ipsum dolar Asset</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>10/10/2019</td>
+                                                <td>999</td>
+                                                <td>Loren Ipsum dolar Asset</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>10/10/2019</td>
+                                                <td>999</td>
+                                                <td>Loren Ipsum dolar Asset</td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <!-- Cards Default -->
+                            <div class="card-default">
+                                <h3>Últimas Interações</h3>
+
+                                <div style="overflow-x:auto;">
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Tipo de Documento</th>
+                                                <th>Data Inicio</th>
+                                                <th>Data Fim</th>
+                                                <th>Status</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Excel</td>
+                                                <td>10/01/2019</td>
+                                                <td>12/01/2019</td>
+                                                <td>Loren Ipsum</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Excel</td>
+                                                <td>10/01/2019</td>
+                                                <td>12/01/2019</td>
+                                                <td>Loren Ipsum</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Excel</td>
+                                                <td>10/01/2019</td>
+                                                <td>12/01/2019</td>
+                                                <td>Loren Ipsum</td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Cards Default -->
+                            <div class="card-default" style="display:none">
+                                <h3>Orçamentos em Aberto</h3>
+
+                                <div style="overflow-x:auto;">
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Ordem</th>
+                                                <th>Canal</th>
+                                                <th>Item</th>
+                                                <th>Qtde do Item</th>
+                                                <th>Valor</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>012345</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>999</td>
+                                                <td>R$ 0,00</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>012345</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>999</td>
+                                                <td>R$ 0,00</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>012345</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>999</td>
+                                                <td>R$ 0,00</td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <!-- Cards Default -->
+                            <div class="card-default">
+                                <h3>Campanhas</h3>
+
+                                <div style="overflow-x:auto;">
+
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Tipo</th>
+                                                <th>Canal</th>
+                                                <th>Data Vigência</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>10/10/2019</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>10/10/2019</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>Loren Ipsum dolar</td>
+                                                <td>10/10/2019</td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom-chart.js"></script>
+    <script src="js/jQueryCustom.js"></script>
+</body>
+
+</html>
